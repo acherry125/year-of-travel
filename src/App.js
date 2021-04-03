@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from 'logo.svg';
+import 'App.css';
 
-function App() {
+import Header from 'components/Header/Header';
+
+const App = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -17,6 +19,7 @@ function App() {
         >
           Learn React
         </a>
+        <Header />
       </header>
     </div>
   );
